@@ -88,6 +88,41 @@
   height: 10%;
 }
 
+@media only screen and (max-width: 1400px) {
+  .card .art-death {
+    width: 10%;
+    height: 1%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .card .art-death {
+    width: 10%;
+    height: 1%;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .card .art-death {
+    width: 10%;
+    height: 1%;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .card .art-death {
+    width: 10%;
+    height: 1%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .card .art-death {
+    width: 10%;
+    height: 1%;
+  }
+}
+
 .card .middle {
   width: 280px;
   margin-left: 10px;

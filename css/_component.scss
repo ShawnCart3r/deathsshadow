@@ -1,0 +1,119 @@
+.life{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+
+.btn{
+    border: none;
+    background-color: black;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+  display: inline-block;
+  font-size: 16px
+
+}
+
+.card{
+  width: 300px;
+  height: 500px;
+  border: solid black;
+  
+   
+  margin-left: 800px;
+  margin-top: 10px;
+  background-image: url("/image/background.jpg");
+
+  @media only screen  and(max-width: 1400px)  {
+    margin-left: 430px;
+  }
+
+  @media only screen  and(max-width: 1000px)  {
+    margin-left: 340px;
+  }
+
+  @media only screen  and(max-width: 786px)  {
+    margin-left: 230px;
+  }
+  @media only screen  and(max-width: 475px)  {
+    margin-left: 50px;
+  }
+  @media only screen  and(max-width: 360px)  {
+    margin-left: 28px;
+  }
+
+ 
+
+  &-title{
+    width:280px;
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 10px;
+    background-color: grey;
+  }
+
+  &-symbol{
+    margin-left: 150px;
+    margin-top: 3px;
+    width: 5%;
+
+  }
+
+  .art{
+    width: 250px;
+    margin-left: 25px;
+   border: solid black;
+   
+    &-death{
+      max-width: 100%;
+      height: 10%;
+    }
+  }
+
+  .middle{
+    width: 280px;
+    margin-left: 10px;
+    background-color: grey;
+   
+    &-type{
+      margin-left: 5px;
+
+    }
+
+    &-symbol{
+      width: 5%;
+      margin-left: 150px;
+    }
+  }
+
+  .rules{
+    width: 280px;
+    background-color: grey;
+    margin-left: 8px;
+    border: solid black;
+
+    &-text{
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    &-flavor{
+      text-align: center;
+      margin-top: 20px;
+      font-style: italic;
+    }
+  }
+
+  .fun{
+    width: 50px;
+    margin-left: 220px;
+    
+    background-color: grey;
+  }
+  
+  
+  
+}

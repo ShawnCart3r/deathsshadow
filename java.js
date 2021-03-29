@@ -1,15 +1,32 @@
-let power =  ("13");
-let toughness = ("13");
 
-document.getElementById("strength").innerHTML = power
-document.getElementById("defense").innerHTML = toughness 
+//power
+let power = 13;
+document.getElementById('lifeTotal').onkeyup = function(){
+  if(this.value.length == 0) {
+    document.getElementById('power').innerHTML = '';
+    return;
+  }
+  let number = parseInt(this.value);
+  if(isNaN(number)) return;
+  document.getElementById('power').innerHTML = power - number;
+};
+document.getElementById('lifeTotal').onkeyup();
+
+//toughness
+let toughness = 13;
+document.getElementById('lifeTotal').onkeyup = function(){
+  if(this.value.length == 0) {
+    document.getElementById('toughness').innerHTML = '';
+    return;
+  }
+  let number = parseInt(this.value);
+  if(isNaN(number)) return;
+  document.getElementById('toughness').innerHTML = toughness - number;
+};
+document.getElementById('lifeTotal').onkeyup();
 
 
-document.getElementById("myBtn").addEventListener("click", displayLifeTotal)
 
-function displayLifeTotal(){
-document.getElementById("lifeTotal").innerHTML = Life();
-}
 
 const life = {
     power: '1',
